@@ -3,6 +3,7 @@
   "extends": [
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended-type-checked",
+    "plugin:@typescript-eslint/stylistic-type-checked",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "prettier",
@@ -18,7 +19,20 @@
     "@typescript-eslint/consistent-type-definitions": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-key": "off",
+    "react/prop-types": "off",
 
+    "@typescript-eslint/no-confusing-void-expression": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-floating-promises": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-argument": "off",
+    "@typescript-eslint/no-unsafe-call": "off",
+    "@typescript-eslint/no-unsafe-declaration-merging": "off",
+    "@typescript-eslint/no-unsafe-return": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off",
+    "@typescript-eslint/prefer-nullish-coalescing": "off",
+    "@typescript-eslint/require-await": "off",
+    "@typescript-eslint/restrict-plus-operands": "off",
     "@typescript-eslint/array-type": "off",
     "@typescript-eslint/consistent-type-imports": [
       "warn",
