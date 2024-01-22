@@ -1,6 +1,4 @@
-'use client'
-
-import LayoutHeader from '@/components/common/header'
+import LayoutHeader from '@/components/layouts/header'
 
 export default function IndexLayout({ children }: LayoutProps) {
   return (
