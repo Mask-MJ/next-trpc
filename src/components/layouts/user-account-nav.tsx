@@ -68,7 +68,7 @@ export default async function UserAccountNav() {
           <Link href="/dashboard/settings">Settings</Link>
         </DropdownMenuItem>
         <DropdownMenuSeparator />
-        <DropdownMenuItem
+        {/* <DropdownMenuItem
           className="cursor-pointer"
           onSelect={(event: Event) => {
             event.preventDefault()
@@ -78,7 +78,7 @@ export default async function UserAccountNav() {
           }}
         >
           Sign out
-        </DropdownMenuItem>
+        </DropdownMenuItem> */}
       </DropdownMenuContent>
     </DropdownMenu>
   )

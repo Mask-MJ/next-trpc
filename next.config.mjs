@@ -1,3 +1,4 @@
+// import dns from 'dns'
 await import('./src/env.mjs')
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -6,6 +7,7 @@ const nextConfig = {
     // typedRoutes: true,
   },
 }
+// dns.setDefaultResultOrder('ipv4first')
 
 export default nextConfig
 

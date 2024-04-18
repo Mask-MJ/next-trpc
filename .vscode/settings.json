@@ -112,6 +112,5 @@
   "i18n-ally.keystyle": "nested",
   "iconify.annotations": true,
   "iconify.inplace": true,
-  "typescript.tsdk": "node_modules\\typescript\\lib",
   "css.lint.unknownAtRules": "ignore"
 }
