@@ -7,7 +7,7 @@ import { appConfig } from '@/config/app'
 import { navList } from '@/config/nav'
 import { cn } from '@/lib/utils'
 
-export default function MainNav() {
+export function MainNav() {
   const segment = useSelectedLayoutSegment()
   return (
     <div className="flex gap-6 md:gap-10">
